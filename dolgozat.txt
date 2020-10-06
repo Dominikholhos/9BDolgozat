@@ -1,0 +1,292 @@
+
+C:\Users\tanulo>color a
+
+C:\Users\tanulo>color
+
+C:\Users\tanulo>git --global general user.name Dominikholhos
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\tanulo>cd ~
+A rendszer nem találja a megadott elérési utat.
+
+C:\Users\tanulo>cd \
+
+C:\>cd 9b
+
+C:\9b>cd Holhós Dominik
+
+C:\9b\Holhós Dominik>md dolgozat.txt
+A subdirectory or file dolgozat.txt already exists.
+
+C:\9b\Holhós Dominik>copy con dolgozat.txt
+asdfadsf^Z^ZOverwrite dolgozat.txt? (Yes/No/All):
+        0 file(s) copied.
+
+C:\9b\Holhós Dominik>git config --global user.name Dominikholhos
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+C:\9b\Holhós Dominik>git config --global useremal dholhos387@gmail.com
+error: key does not contain a section: useremal
+
+C:\9b\Holhós Dominik>git config --global user.emal dholhos387@gmail.com
+
+C:\9b\Holhós Dominik>git config --global user.name Dominikholhos
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+C:\9b\Holhós Dominik>--replace user.name Dominikholhos
+'--replace' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\9b\Holhós Dominik>git config --replace user.name Dominikholhos
+
+C:\9b\Holhós Dominik>md dolgozat
+
+C:\9b\Holhós Dominik>cd dolgozat
+
+C:\9b\Holhós Dominik\dolgozat>it init
+'it' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\9b\Holhós Dominik\dolgozat>git init
+Initialized empty Git repository in C:/9b/Holhós Dominik/dolgozat/.git/
+
+C:\9b\Holhós Dominik\dolgozat>git add utasitasok.txt
+fatal: pathspec 'utasitasok.txt' did not match any files
+
+C:\9b\Holhós Dominik\dolgozat>uatsitasok
+'uatsitasok' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\9b\Holhós Dominik\dolgozat>git add utasitasok.txt
+
+C:\9b\Holhós Dominik\dolgozat>git log
+fatal: your current branch 'master' does not have any commits yet
+
+C:\9b\Holhós Dominik\dolgozat>git commit
+hint: Waiting for your editor to close the file...
+ [main 2020-10-06T07:47:16.274Z] update#setState idle
+Aborting commit due to empty commit message.
+
+C:\9b\Holhós Dominik\dolgozat>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   utasitasok.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+
+
+C:\9b\Holhós Dominik\dolgozat>git commit -m "Holhós Dominik Márk"
+[master (root-commit) 5d89011] Holhós Dominik Márk
+ 1 file changed, 4 insertions(+)
+ create mode 100644 utasitasok.txt
+
+C:\9b\Holhós Dominik\dolgozat>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\9b\Holhós Dominik\dolgozat>git commit -m "Holhós Dominik Márk"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\9b\Holhós Dominik\dolgozat>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\9b\Holhós Dominik\dolgozat>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\9b\Holhós Dominik\dolgozat>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\9b\Holhós Dominik\dolgozat>git clone https://github.com/Dominikholhos/9BDolgozat.git
+Cloning into '9BDolgozat'...
+warning: You appear to have cloned an empty repository.
+
+C:\9b\Holhós Dominik\dolgozat>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\9b\Holhós Dominik\dolgozat>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\9b\Holhós Dominik\dolgozat>git add *
+error: '9BDolgozat/' does not have a commit checked out
+fatal: adding files failed
+
+C:\9b\Holhós Dominik\dolgozat>git add *
+error: '9BDolgozat/' does not have a commit checked out
+fatal: adding files failed
+
+C:\9b\Holhós Dominik\dolgozat>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   utasitasok.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        9BDolgozat/
+        dolgozat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\9b\Holhós Dominik\dolgozat>git add utasitasok.txt
+
+C:\9b\Holhós Dominik\dolgozat>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   utasitasok.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        9BDolgozat/
+        dolgozat.txt
+
+
+C:\9b\Holhós Dominik\dolgozat>git commit -m "HolhósDominikMárk"
+[master 3dfdce5] HolhósDominikMárk
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+C:\9b\Holhós Dominik\dolgozat>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\9b\Holhós Dominik\dolgozat>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\9b\Holhós Dominik\dolgozat>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 9E4D-8B3B
+
+ Directory of C:\9b\Holhós Dominik\dolgozat
+
+2020.10.06.  09:54    <DIR>          .
+2020.10.06.  09:54    <DIR>          ..
+2020.10.06.  09:54    <DIR>          9BDolgozat
+2020.10.06.  09:13             1 190 dolgozat.txt
+2020.10.06.  09:54                54 utasitasok.txt
+               2 File(s)          1 244 bytes
+               3 Dir(s)  369 696 690 176 bytes free
+
+C:\9b\Holhós Dominik\dolgozat>cd 9bdolgozat
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Dominikholhos/9BDolgozat.git'
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+        utasitasok.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git add utasitasok.txt
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   utasitasok.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dolgozat.txt
+
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git commit -m "Holhós Dominik Márk"
+[master (root-commit) 058a2e1] Holhós Dominik Márk
+ 1 file changed, 4 insertions(+)
+ create mode 100644 utasitasok.txt
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>git push
+Username for 'https://github.com': Dominikholhos
+Password for 'https://Dominikholhos@github.com':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Dominikholhos/9BDolgozat.git
+ * [new branch]      master -> master
+
+C:\9b\Holhós Dominik\dolgozat\9BDolgozat>
