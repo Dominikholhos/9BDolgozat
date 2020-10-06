@@ -1,0 +1,4 @@
+1git checkout 
+2git diff head
+3git reset 
+4git pull
